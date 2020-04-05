@@ -18,7 +18,7 @@ namespace survivalkitapi.Controllers
         {
             this._dbContext = dbContext;
         }
-        
+
         [HttpGet]
         public async Task<ActionResult<IEnumerable<Role>>> GetRoles()
         {

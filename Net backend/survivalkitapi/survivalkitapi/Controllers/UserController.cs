@@ -41,6 +41,19 @@ namespace survivalkitapi.Controllers
             return user;
         }
 
+        [HttpGet("api/{username}")]
+        public async Task<ActionResult<User>> GetUserByUserName(string username)
+        {
+            var user = await this._dbContext.Users.FirstAsync(u => u.UserName == username);
+
+            if (user == null)
+            {
+                return NotFound();
+            }
+
+            return user;
+        }
+
         
         [HttpPost]
         public async Task<ActionResult<User>> PostUser(User user)
