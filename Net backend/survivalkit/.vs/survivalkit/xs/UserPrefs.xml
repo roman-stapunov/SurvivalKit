@@ -1,0 +1,51 @@
+﻿<Properties StartupConfiguration="{DE17C6EC-B090-4D38-B5BF-FBDB570A96AE}|Default">
+  <MonoDevelop.Ide.ItemProperties.SurvivalKit PreferredExecutionTarget="/Applications/Safari.app" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="SurvivalKit/Data/Migrations/00000000000000_CreateIdentitySchema.cs">
+    <Files>
+      <File FileName="SurvivalKit/Data/ApplicationDbContext.cs" Line="9" Column="58" />
+      <File FileName="SurvivalKit/Data/Migrations/ApplicationDbContextModelSnapshot.cs" />
+      <File FileName="SurvivalKit.Core/DataEntities/UserStatus.cs" />
+      <File FileName="SurvivalKit/appsettings.json" Line="3" Column="116" />
+      <File FileName="SurvivalKit/Data/Migrations/00000000000000_CreateIdentitySchema.cs" Line="1" Column="1" />
+      <File FileName="SurvivalKit/Data/Migrations/00000000000000_CreateIdentitySchema.Designer.cs" Line="1" Column="1" />
+      <File FileName="SurvivalKit/Properties/launchSettings.json" />
+      <File FileName="SurvivalKit/Startup.cs" Line="10" Column="37" />
+      <File FileName="SurvivalKit/Program.cs" Line="27" Column="1" />
+      <File FileName="SurvivalKit/appsettings.Development.json" Line="1" Column="1" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="survivalkit" expanded="True">
+            <Node name="SurvivalKit" expanded="True">
+              <Node name="Dependencies" expanded="True">
+                <Node name="FrameworkReferences" expanded="True" />
+                <Node name="PackageDependencies" expanded="True" />
+                <Node name="ProjectDependencies" expanded="True" />
+              </Node>
+              <Node name="Data" expanded="True">
+                <Node name="Migrations" expanded="True">
+                  <Node name="00000000000000_CreateIdentitySchema.cs" expanded="True" selected="True" />
+                </Node>
+              </Node>
+              <Node name="Properties" expanded="True" />
+              <Node name="appsettings.json" expanded="True" />
+            </Node>
+            <Node name="SurvivalKit.Core" expanded="True">
+              <Node name="Dependencies" expanded="True">
+                <Node name="FrameworkReferences" expanded="True" />
+              </Node>
+              <Node name="DataEntities" expanded="True" />
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MultiItemStartupConfigurations />
+</Properties>
