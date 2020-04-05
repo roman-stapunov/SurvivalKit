@@ -14,6 +14,7 @@
             </e>
           </e>
         </e>
+        <e p="Role.cs" t="Include" />
         <e p="User.cs" t="Include" />
       </e>
       <e p="packages" t="ExcludeRecursive" />
@@ -22,7 +23,11 @@
         <e p="appsettings.json" t="Include" />
         <e p="bin" t="ExcludeRecursive" />
         <e p="Controllers" t="Include">
+          <e p="RoleController.cs" t="Include" />
           <e p="UserController.cs" t="Include" />
+        </e>
+        <e p="Data" t="Include">
+          <e p="ApplicationDbContext.cs" t="Include" />
         </e>
         <e p="obj" t="ExcludeRecursive">
           <e p="Debug" t="Include">
