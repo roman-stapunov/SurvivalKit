@@ -53,7 +53,14 @@ namespace survivalkitapi.Controllers
 
             return user;
         }
+        
+        [HttpGet("byroleid/{roleid}")]
+        public async Task<ActionResult<IEnumerable<User>>> GetUserByRoleId(int roleid)
+        {
+            var users = await this._dbContext.Users.Where(u => u.RoleId == roleid).ToListAsync();
 
+            return users;
+        }
         
         [HttpPost]
         public async Task<ActionResult<User>> PostUser(User user)

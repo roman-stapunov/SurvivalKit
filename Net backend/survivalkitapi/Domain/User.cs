@@ -24,7 +24,7 @@ namespace Domain
         public string PhoneNumber { get; set; }
         [Column("password")]
         public string Password { get; set; }
-        [Column("role")]
-        public int RoleName { get; set; }
+        [Column("roleid")]
+        public int RoleId { get; set; }
     }
 }
