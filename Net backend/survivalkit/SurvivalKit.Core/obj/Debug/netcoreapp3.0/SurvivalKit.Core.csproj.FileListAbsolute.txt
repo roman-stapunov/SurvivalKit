@@ -1,0 +1,9 @@
+/Users/roman.stapunov/Projects/GitHub/SurvivalKit/Net backend/survivalkit/SurvivalKit.Core/bin/Debug/netcoreapp3.0/SurvivalKit.Core.deps.json
+/Users/roman.stapunov/Projects/GitHub/SurvivalKit/Net backend/survivalkit/SurvivalKit.Core/bin/Debug/netcoreapp3.0/SurvivalKit.Core.dll
+/Users/roman.stapunov/Projects/GitHub/SurvivalKit/Net backend/survivalkit/SurvivalKit.Core/bin/Debug/netcoreapp3.0/SurvivalKit.Core.pdb
+/Users/roman.stapunov/Projects/GitHub/SurvivalKit/Net backend/survivalkit/SurvivalKit.Core/obj/Debug/netcoreapp3.0/SurvivalKit.Core.csprojAssemblyReference.cache
+/Users/roman.stapunov/Projects/GitHub/SurvivalKit/Net backend/survivalkit/SurvivalKit.Core/obj/Debug/netcoreapp3.0/SurvivalKit.Core.csproj.CoreCompileInputs.cache
+/Users/roman.stapunov/Projects/GitHub/SurvivalKit/Net backend/survivalkit/SurvivalKit.Core/obj/Debug/netcoreapp3.0/SurvivalKit.Core.AssemblyInfoInputs.cache
+/Users/roman.stapunov/Projects/GitHub/SurvivalKit/Net backend/survivalkit/SurvivalKit.Core/obj/Debug/netcoreapp3.0/SurvivalKit.Core.AssemblyInfo.cs
+/Users/roman.stapunov/Projects/GitHub/SurvivalKit/Net backend/survivalkit/SurvivalKit.Core/obj/Debug/netcoreapp3.0/SurvivalKit.Core.dll
+/Users/roman.stapunov/Projects/GitHub/SurvivalKit/Net backend/survivalkit/SurvivalKit.Core/obj/Debug/netcoreapp3.0/SurvivalKit.Core.pdb

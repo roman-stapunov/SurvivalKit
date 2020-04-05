@@ -1,0 +1,9 @@
+/Users/roman.stapunov/Projects/GitHub/SurvivalKit/Net backend/survivalkitapi/Domain/bin/Debug/netcoreapp3.0/Domain.deps.json
+/Users/roman.stapunov/Projects/GitHub/SurvivalKit/Net backend/survivalkitapi/Domain/bin/Debug/netcoreapp3.0/Domain.dll
+/Users/roman.stapunov/Projects/GitHub/SurvivalKit/Net backend/survivalkitapi/Domain/bin/Debug/netcoreapp3.0/Domain.pdb
+/Users/roman.stapunov/Projects/GitHub/SurvivalKit/Net backend/survivalkitapi/Domain/obj/Debug/netcoreapp3.0/Domain.csprojAssemblyReference.cache
+/Users/roman.stapunov/Projects/GitHub/SurvivalKit/Net backend/survivalkitapi/Domain/obj/Debug/netcoreapp3.0/Domain.csproj.CoreCompileInputs.cache
+/Users/roman.stapunov/Projects/GitHub/SurvivalKit/Net backend/survivalkitapi/Domain/obj/Debug/netcoreapp3.0/Domain.AssemblyInfoInputs.cache
+/Users/roman.stapunov/Projects/GitHub/SurvivalKit/Net backend/survivalkitapi/Domain/obj/Debug/netcoreapp3.0/Domain.AssemblyInfo.cs
+/Users/roman.stapunov/Projects/GitHub/SurvivalKit/Net backend/survivalkitapi/Domain/obj/Debug/netcoreapp3.0/Domain.dll
+/Users/roman.stapunov/Projects/GitHub/SurvivalKit/Net backend/survivalkitapi/Domain/obj/Debug/netcoreapp3.0/Domain.pdb

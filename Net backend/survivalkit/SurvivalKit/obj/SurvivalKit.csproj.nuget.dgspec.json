@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "/Users/roman.stapunov/Projects/survivalkit/SurvivalKit/SurvivalKit.csproj": {}
+    "/Users/roman.stapunov/Projects/GitHub/SurvivalKit/Net backend/survivalkit/SurvivalKit/SurvivalKit.csproj": {}
   },
   "projects": {
-    "/Users/roman.stapunov/Projects/survivalkit/SurvivalKit.Core/SurvivalKit.Core.csproj": {
+    "/Users/roman.stapunov/Projects/GitHub/SurvivalKit/Net backend/survivalkit/SurvivalKit.Core/SurvivalKit.Core.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/roman.stapunov/Projects/survivalkit/SurvivalKit.Core/SurvivalKit.Core.csproj",
+        "projectUniqueName": "/Users/roman.stapunov/Projects/GitHub/SurvivalKit/Net backend/survivalkit/SurvivalKit.Core/SurvivalKit.Core.csproj",
         "projectName": "SurvivalKit.Core",
-        "projectPath": "/Users/roman.stapunov/Projects/survivalkit/SurvivalKit.Core/SurvivalKit.Core.csproj",
+        "projectPath": "/Users/roman.stapunov/Projects/GitHub/SurvivalKit/Net backend/survivalkit/SurvivalKit.Core/SurvivalKit.Core.csproj",
         "packagesPath": "/Users/roman.stapunov/.nuget/packages/",
-        "outputPath": "/Users/roman.stapunov/Projects/survivalkit/SurvivalKit.Core/obj/",
+        "outputPath": "/Users/roman.stapunov/Projects/GitHub/SurvivalKit/Net backend/survivalkit/SurvivalKit.Core/obj/",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "/usr/local/share/dotnet/sdk/NuGetFallbackFolder"
@@ -73,14 +73,14 @@
         }
       }
     },
-    "/Users/roman.stapunov/Projects/survivalkit/SurvivalKit/SurvivalKit.csproj": {
+    "/Users/roman.stapunov/Projects/GitHub/SurvivalKit/Net backend/survivalkit/SurvivalKit/SurvivalKit.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/roman.stapunov/Projects/survivalkit/SurvivalKit/SurvivalKit.csproj",
+        "projectUniqueName": "/Users/roman.stapunov/Projects/GitHub/SurvivalKit/Net backend/survivalkit/SurvivalKit/SurvivalKit.csproj",
         "projectName": "SurvivalKit",
-        "projectPath": "/Users/roman.stapunov/Projects/survivalkit/SurvivalKit/SurvivalKit.csproj",
+        "projectPath": "/Users/roman.stapunov/Projects/GitHub/SurvivalKit/Net backend/survivalkit/SurvivalKit/SurvivalKit.csproj",
         "packagesPath": "/Users/roman.stapunov/.nuget/packages/",
-        "outputPath": "/Users/roman.stapunov/Projects/survivalkit/SurvivalKit/obj/",
+        "outputPath": "/Users/roman.stapunov/Projects/GitHub/SurvivalKit/Net backend/survivalkit/SurvivalKit/obj/",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "/usr/local/share/dotnet/sdk/NuGetFallbackFolder"
@@ -97,8 +97,8 @@
         "frameworks": {
           "netcoreapp3.0": {
             "projectReferences": {
-              "/Users/roman.stapunov/Projects/survivalkit/SurvivalKit.Core/SurvivalKit.Core.csproj": {
-                "projectPath": "/Users/roman.stapunov/Projects/survivalkit/SurvivalKit.Core/SurvivalKit.Core.csproj"
+              "/Users/roman.stapunov/Projects/GitHub/SurvivalKit/Net backend/survivalkit/SurvivalKit.Core/SurvivalKit.Core.csproj": {
+                "projectPath": "/Users/roman.stapunov/Projects/GitHub/SurvivalKit/Net backend/survivalkit/SurvivalKit.Core/SurvivalKit.Core.csproj"
               }
             }
           }

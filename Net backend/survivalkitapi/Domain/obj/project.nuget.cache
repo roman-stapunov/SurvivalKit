@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "GyM2TJyCN/o5Z79aVVG4oc/uIih7+sqzmRtJQWhQAlWl2yTAKeruodX0150t9GCW0l1jO5tVt5EHmyIUlFp29Q==",
+  "success": true,
+  "projectFilePath": "/Users/roman.stapunov/Projects/survivalkitn/Domain/Domain.csproj",
+  "expectedPackageFiles": [
+    "/Users/roman.stapunov/.nuget/packages/microsoft.aspnetcore.app.ref/3.0.1/microsoft.aspnetcore.app.ref.3.0.1.nupkg.sha512"
+  ],
+  "logs": []
+}

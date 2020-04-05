@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "+J3kdMYC/jZrA3yyKUAdRTs/H0SHnkbEI77NEd4ck38LaOuLEXbFRXcCdVviTc55ppc4wuSqAjD0yRZULWQzqw==",
+  "success": true,
+  "projectFilePath": "/Users/roman.stapunov/Projects/survivalkitn/survivalkitapi/survivalkitapi.csproj",
+  "expectedPackageFiles": [
+    "/Users/roman.stapunov/.nuget/packages/microsoft.aspnetcore.app.ref/3.0.1/microsoft.aspnetcore.app.ref.3.0.1.nupkg.sha512"
+  ],
+  "logs": []
+}
