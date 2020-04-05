@@ -30,6 +30,7 @@ namespace survivalkitapi
             services.AddDbContext<ApplicationDbContext>(options =>
                 options.UseNpgsql(
                     Configuration.GetConnectionString("DefaultConnection")));
+            
             services.AddControllers();
         }
 
