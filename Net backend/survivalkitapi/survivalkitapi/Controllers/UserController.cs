@@ -5,6 +5,9 @@ using System.Threading.Tasks;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.Extensions.Logging;
 using Domain;
+using Microsoft.EntityFrameworkCore;
+using Microsoft.EntityFrameworkCore.ValueGeneration;
+using survivalkitapi.Data;
 
 namespace survivalkitapi.Controllers
 {
@@ -12,57 +15,40 @@ namespace survivalkitapi.Controllers
     [Route("[controller]")]
     public class UserController : ControllerBase
     {
-        private static readonly string[] Summaries = new[]
+        private readonly ApplicationDbContext _dbContext;
+
+        public UserController(ApplicationDbContext dbContext)
         {
-            "Freezing", "Bracing", "Chilly", "Cool", "Mild", "Warm", "Balmy", "Hot", "Sweltering", "Scorching"
-        };
-
-        private readonly ILogger<UserController> _logger;
-
-        public UserController(ILogger<UserController> logger)
-        {
-            _logger = logger;
-        }
-
-        private User _user;
-
-        [HttpPost]
-        [ProducesResponseType(201)]
-        [ProducesResponseType(400)]
-        public ActionResult<User> Create(User user)
-        {
-            _user = user;
-            return CreatedAtAction("GetById", user.Name);
-        }
-
-        public string GetById(long id)
-        {
-            return _user.Name;
+            this._dbContext = dbContext;
         }
 
         [HttpGet]
-        public IEnumerable<User> Get()
+        public async Task<ActionResult<IEnumerable<User>>> GetUsers()
         {
-            if (_user != null)
+            return await this._dbContext.Users.ToListAsync();
+        }
+
+        [HttpGet("{id}")]
+        public async Task<ActionResult<User>> GetUser(long id)
+        {
+            var user = await this._dbContext.Users.FindAsync(id);
+
+            if (user == null)
             {
-                return new List<User>() { _user };
+                return NotFound();
             }
-            else
-            {
-                return new List<User>()
-                {
-                    new User()
-                    {
-                        Id = 0,
-                        Name = "None",
-                        Email = "None",
-                        Password = "None",
-                        PhoneNumber = "None",
-                        Role = 0,
-                        UserName = "None"
-                    }
-                };
-            }
+
+            return user;
+        }
+
+        
+        [HttpPost]
+        public async Task<ActionResult<User>> PostUser(User user)
+        {
+            this._dbContext.Users.Add(user);
+            await this._dbContext.SaveChangesAsync();
+            
+            return CreatedAtAction(nameof(GetUser), new {id = user.Id}, user);
         }
     }
 }
